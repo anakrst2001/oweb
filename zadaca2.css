@@ -1,0 +1,85 @@
+
+h1 { font-family: Courier New, Arial, Comic, Tahoma, Helvetica, Sans-Serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.h1 {
+animation: color-animation 5s linear infinite;
+}
+
+.h11 {
+--color-1: #E7717D;
+--color-2: #D83F87;
+--color-3: #2F4454;
+--color-4: #501F3A;
+}
+
+.h12 {
+--color-1: #4E4E50;
+--color-2: #2A1B3D;
+--color-3: #2E151B;
+--color-4: #CB2D6F;
+}
+
+.h13 {
+--color-1: #AFD275;
+--color-2: #44318D;
+--color-3: #DA7B93;
+--color-4: #14A098;
+}
+
+.h14 {
+--color-1: #7E685A;
+--color-2: #E98074;
+--color-3: #376E6F;
+--color-4: #0F292F;
+}
+
+ @keyframes color-animation {
+ 0%    {color: var(--color-1)}
+ 25%   {color: var(--color-1)}
+ 26%   {color: var(--color-2)}
+ 50%   {color: var(--color-2)}
+ 51%   {color: var(--color-3)}
+ 75%   {color: var(--color-3)}
+ 76%   {color: var(--color-4)}
+ 100%  {color: var(--color-4)}
+}
+
+fieldset{
+    border: 5px ridge rgb(11, 127, 171);
+    background-color: rgb(240, 243, 245);
+}
+
+legend {
+    font-weight: bolder;
+    font-size: large;
+    color: purple;
+}
+
+header p{
+    font-weight: bold;
+    font-size: large;
+    color: #41B3A3;
+    text-align: justify;
+}
+
+.submit{
+    background-color: #C38D9E;
+    border: 5px inset #659DBD;
+}
+
+label{
+    color: #D83F87;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+fieldset select option{
+    color: navy;
+}
