@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dado Tea</title>
+    <meta name="keywords" content="dado, tea, lunch, food, healthy, sandwich, snack, drink, order, mozzarella, chicken,
+    salad, toto, wrap, pepper, hummus, turkey, egg, salad, tuna, bread, gluten, chips, apple, banana, potato, coffee, 
+    organic, meal">
+    <meta name="description" content="This website will show you the rich menu of delicious and healthy meals which Dado Tea 
+    offers and will allow you to place an order.">
+    <link rel = "stylesheet" type = "text/css" href = "zadaca2.css">
+
+</head>
+<body>
+    <fieldset>
+        <header>
+            <h1>
+                <span class="h1 h11">Dado</span>
+                <span class="h1 h12">Tea</span>
+                <span class="h1 h13">Lunch</span>
+                <span class="h1 h14">Special</span>
+            </h1>
+
+            <p class="oblique">
+                Monday through Friday<br>
+                11am-3pm<br>
+                $9.95 plus tax
+            </p>
+
+            <p>Includes sandwich, snack and drink.</p>
+        </header>
+
+        <form method="post" action="http://www.deitel.com">
+            <fieldset>
+                <legend>Order Information</legend>
+                <p><label>
+                    <strong>Name<br></strong>
+                    <input name="name" type="text" size="25" required>
+                </label>
+                </p>
+
+                <p>
+                    <input name="where" type="radio" value="here" required>
+                    <label>Here<br></label>
+                    <input name="where" type="radio" value="togo" required>
+                    <label>To go<br></label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Sandwiches</legend>
+                <p>
+                    <strong>Monday<br></strong>
+                    <input name="whichsandwich" type="radio" value="mozzarella">
+                    <label>Tomato Mozzarella<br></label>
+                    <input name="whichsandwich" type="radio" value="salad">
+                    <label>Chicken Salad<br></label>
+                </p>
+
+                <p>
+                    <strong>Tuesday<br></strong>
+                    <input name="whichsandwich" type="radio" value="saladwrap">
+                    <label>Greek Salad Wrap<br></label>
+                    <input name="whichsandwich" type="radio" value="totowrap">
+                    <label>Toto Wrap<br></label>
+                </p>
+
+                <p>
+                    <strong>Wednesday<br></strong>
+                    <input name="whichsandwich" type="radio" value="hummus">
+                    <label>Red Pepper Hummus<br></label>
+                    <input name="whichsandwich" type="radio" value="turkey">
+                    <label>Roasted Turkey<br></label>
+                </p>
+
+                <p>
+                    <strong>Thursday<br></strong>
+                    <input name="whichsandwich" type="radio" value="hummuswrap">
+                    <label>Carrot-Ginger Hummus Wrap<br></label>
+                    <input name="whichsandwich" type="radio" value="eggsalad">
+                    <label>Egg Salad<br></label>
+                </p>
+
+                <p>
+                    <strong>Friday<br></strong>
+                    <input name="whichsandwich" type="radio" value="dadowrap">
+                    <label>Dado Wrap<br></label>
+                    <input name="whichsandwich" type="radio" value="tunasalad">
+                    <label>Tuna Salad<br></label>
+                </p>
+
+                <hr>
+
+                <p>
+                    <input name="glutenfree" type="checkbox" value="bread">
+                    <label>Gluten Free Bread (75¢ extra)</label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Snack</legend>
+                <p>
+                    <strong>Snacks<br></strong>
+                    <input name="snacks" type="radio" value="apple">
+                    <label>Apple<br></label>
+                    <input name="snacks" type="radio" value="banana">
+                    <label>Banana<br></label>
+                    <input name="snacks" type="radio" value="chips">
+                    <label>Potato Chips<br></label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Drink</legend>
+                <p>
+                    <label><strong>Drinks<br></strong></label>
+                    <select name="drink">
+                        <option>Coffee</option>
+                        <option>Iced Coffee</option>
+                        <option>Organic Peppermint</option>
+                        <option>Hot Green Tea - Sencha</option>
+                        <option>Iced Green Tea - Sencha</option>
+                        <option selected>Hot Black Tea - Keemun</option>
+                        <option>Iced Black Tea - Keemun</option>
+                    </select>
+                </p>
+
+                <hr>
+
+                <p>
+                    <input name="drinks" type="checkbox" value="largedrink">
+                    <label>Large Drink (75¢ extra)</label>
+                </p>
+            </fieldset>
+
+            <p>
+                <input class="submit" type="submit" value="Place Order">
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
