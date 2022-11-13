@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tortoise and hare race algorithm</title>
+    <link rel="stylesheet" type="text/css" href="zadaca3.css">
+    <script src="zadaca3.js"></script>
+</head>
+<body onload="generate_rectangles_tortoise(); generate_rectangles_hare()">
+    <h1>Tortoise and hare race algorithm</h1>
+    <p>Tortoise:<br></p>
+    <span id="zelka_pravoagolnici"></span>
+    <p>Hare:<br></p>
+    <span id="zajak_pravoagolnici"></span>
+    <br>
+    <img src="tortoise_hare.jpg" alt="Tortoise and hare" width="320px" height="240px">
+    <p class="timing" id="timer">Timer: 0s</p>
+    <form action="#">
+        <input id="who_will_win?" class="button" type="button" value="START" onclick="lets_start()">
+    </form>
+</body>
+</html>
