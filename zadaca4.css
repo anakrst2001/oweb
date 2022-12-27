@@ -1,0 +1,39 @@
+table{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+td, th{
+    border: 3px solid black;
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+body{
+    background: -webkit-gradient(linear, left top, right top,color-stop(0%, #11998E), color-stop(99%, #38EF7D));
+}
+input{
+    color: black;
+    background-color: white;
+    display: block;
+    margin: auto;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
